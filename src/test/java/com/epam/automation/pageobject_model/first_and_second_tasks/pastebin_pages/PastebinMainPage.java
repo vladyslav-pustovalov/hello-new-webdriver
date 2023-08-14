@@ -1,8 +1,7 @@
-package com.epam.automation.pageobject_model.i_can_win.pages;
+package com.epam.automation.pageobject_model.first_and_second_tasks.pastebin_pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 public class PastebinMainPage extends AbstractPage {
@@ -10,6 +9,8 @@ public class PastebinMainPage extends AbstractPage {
     private static final String MAIN_PAGE_URL = "https://pastebin.com/";
     @FindBy(id = "postform-text")
     private WebElement codeInputField;
+    @FindBy(id="postform-format")
+    private WebElement syntaxHighlightSelect;
     @FindBy(id = "postform-expiration")
     private WebElement pasteExpirationSelect;
     @FindBy(id = "postform-name")
@@ -20,7 +21,6 @@ public class PastebinMainPage extends AbstractPage {
 
     public PastebinMainPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver, this);
     }
 
     @Override
@@ -31,6 +31,13 @@ public class PastebinMainPage extends AbstractPage {
 
     public PastebinMainPage writeCodeIntoCodeField(String stringToWrite) {
         codeInputField.sendKeys(stringToWrite);
+        return this;
+    }
+
+    public PastebinMainPage selectSyntaxHighlight(String value) {
+        js.executeScript("arguments[0].style.visibility='visible';", syntaxHighlightSelect);
+        Select drop = new Select(syntaxHighlightSelect);
+        drop.selectByValue(value);
         return this;
     }
 
@@ -49,17 +56,5 @@ public class PastebinMainPage extends AbstractPage {
     public PastebinCreatedPastePage createNewPaste() {
         createNewPasteButton.click();
         return new PastebinCreatedPastePage(driver);
-    }
-
-    public boolean isCodeInputFieldPresents() {
-        return codeInputField.isDisplayed();
-    }
-
-    public boolean isNameOrTitleFieldPresents() {
-        return pasteNameTitleInputField.isDisplayed();
-    }
-
-    public boolean isCreateButtonPresents() {
-        return createNewPasteButton.isDisplayed();
     }
 }

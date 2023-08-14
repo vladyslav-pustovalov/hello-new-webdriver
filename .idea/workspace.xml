@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="960192d4-dc63-425b-9575-68272cc7ae82" name="Changes" comment="Creation of the task &quot;I can win&quot; from EPAM Selenium Java Free course">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/automation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/course/page/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/course/page/GoogleSearchMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/course/page/GoogleSearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/course/test/WebDriverGoogleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/first_and_second_tasks/tests/CreateNewPasteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/tasts_itself/1-icanwin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/tasts_itself/2-bringiton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/tasts_itself/3-hurtmeplenty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/third_task/google_cloud_pages/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/third_task/google_cloud_pages/GoogleCloudMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/third_task/google_cloud_pages/GoogleCloudPricingCalculatorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/third_task/google_cloud_pages/GoogleCloudSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/third_task/google_cloud_pages/TTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/third_task/tests/GooglePricingCalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/i_can_win/pages/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/first_and_second_tasks/pastebin_pages/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/i_can_win/pages/PastebinCreatedPastePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/first_and_second_tasks/pastebin_pages/PastebinCreatedPastePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/i_can_win/pages/PastebinMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/first_and_second_tasks/pastebin_pages/PastebinMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/i_can_win/tests/CreateNewPasteTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="yewwlrsm" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2RhxaOmHygQcviLz5JLD17cpWwf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Repos/hello-new-webdriver&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repos\hello-new-webdriver\src\test\java\com\epam\automation\pageobject_model\third_task\google_cloud_pages" />
+      <recent name="D:\Repos\hello-new-webdriver\src\test\java\com\epam\automation\pageobject_model\tasts_itself" />
+      <recent name="D:\Repos\hello-new-webdriver\src\test\java\com\epam\automation\pageobject_model\first_and_second_tasks\tasts_itself" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GooglePricingCalculatorTests.hurtMePlentyTest">
+    <configuration name="CreateNewPasteTest.bringItOnTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hello-new-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.automation.pageobject_model.first_and_second_tasks.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.automation.pageobject_model.first_and_second_tasks.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.automation.pageobject_model.first_and_second_tasks.tests.CreateNewPasteTest" />
+      <option name="METHOD_NAME" value="bringItOnTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateNewPasteTest.iCanWinTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hello-new-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.automation.pageobject_model.first_and_second_tasks.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.automation.pageobject_model.first_and_second_tasks.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.automation.pageobject_model.first_and_second_tasks.tests.CreateNewPasteTest" />
+      <option name="METHOD_NAME" value="iCanWinTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GooglePricingCalculatorTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hello-new-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.automation.pageobject_model.third_task.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.automation.pageobject_model.third_task.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.automation.pageobject_model.third_task.tests.GooglePricingCalculatorTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GooglePricingCalculatorTests.hurtMePlentyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hello-new-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.automation.pageobject_model.third_task.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.automation.pageobject_model.third_task.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.automation.pageobject_model.third_task.tests.GooglePricingCalculatorTests" />
+      <option name="METHOD_NAME" value="hurtMePlentyTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GooglePricingCalculatorTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hello-new-webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.automation.pageobject_model.third_task.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.automation.pageobject_model.third_task.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.automation.pageobject_model.third_task.tests.GooglePricingCalculatorTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GooglePricingCalculatorTests.hurtMePlentyTest" />
+        <item itemvalue="TestNG.GooglePricingCalculatorTests" />
+        <item itemvalue="TestNG.GooglePricingCalculatorTests.test" />
+        <item itemvalue="TestNG.CreateNewPasteTest.bringItOnTest" />
+        <item itemvalue="TestNG.CreateNewPasteTest.iCanWinTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastUrl" value="https://cloud.google.com/products/calculator" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="960192d4-dc63-425b-9575-68272cc7ae82" name="Changes" comment="" />
+      <created>1687716176777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687716176777</updated>
+      <workItem from="1691674366105" duration="288000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creation of the task &quot;I can win&quot; from EPAM Selenium Java Free course">
+      <option name="closed" value="true" />
+      <created>1690310296134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690310296134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creation of the task &quot;I can win&quot; from EPAM Selenium Java Free course">
+      <option name="closed" value="true" />
+      <created>1690310785233</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690310785233</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creation of the task &quot;I can win&quot; from EPAM Selenium Java Free course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of the task &quot;I can win&quot; from EPAM Selenium Java Free course" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/epam/automation/pageobject_model/first_and_second_tasks/tests/CreateNewPasteTest.java</url>
+          <line>39</line>
+          <properties class="com.epam.automation.pageobject_model.first_and_second_tasks.tests.CreateNewPasteTest" method="bringItOnTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
